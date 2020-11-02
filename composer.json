@@ -1,12 +1,13 @@
 {
-    "name": "digital-creative/nova-range-input-filter-tajik",
+    "name": "tajik-digital",
     "description": "A Laravel Nova range input filter.",
     "keywords": [
         "laravel",
         "nova",
         "range",
         "input",
-        "filter"
+        "filter",
+        "tajik"
     ],
     "authors": [
         {
