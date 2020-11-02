@@ -23,7 +23,9 @@ class RangeDateFilter extends RangeInputFilter
         'dateFormat' => 'Y/m/d',
         'enableTime' => false,
         'enableSeconds' => false,
-        'fullWidth' => true
+        'fullWidth' => true,
+        'customWidthFrom' => 'w-1/3',
+        'customWidthTo' => 'w-1/2'
     ];
 
 }

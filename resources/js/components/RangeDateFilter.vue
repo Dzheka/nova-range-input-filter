@@ -9,7 +9,7 @@
         <div class="flex p-2 flex-no-wrap items-center">
 
             <date-time-picker class="flex items-center form-control form-input text-sm border-60"
-                              :class="{ 'w-full': filter.options.fullWidth }"
+                              :class="filter.options.customWidthFrom"
                               name="from"
                               autocomplete="off"
                               v-model="value.from"
@@ -22,7 +22,7 @@
             <div class="text-sm mx-2 text-center">{{ filter.options.dividerLabel }}</div>
 
             <date-time-picker class="flex items-center form-control form-input text-sm border-60"
-                              :class="{ 'w-full': filter.options.fullWidth }"
+                              :class="filter.options.customWidthTo"
                               name="to"
                               autocomplete="off"
                               v-model="value.to"

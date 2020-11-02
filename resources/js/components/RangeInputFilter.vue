@@ -9,7 +9,7 @@
         <div class="flex p-2 flex-no-wrap items-center">
 
             <input class="flex items-center form-control form-input text-sm border-60"
-                   :class="{ 'w-full': filter.options.fullWidth }"
+                   :class="filter.options.customWidthFrom"
                    name="from"
                    :type="filter.options.inputType"
                    :placeholder="filter.options.fromPlaceholder"
@@ -19,7 +19,7 @@
             <div class="text-sm mx-2 text-center">{{ filter.options.dividerLabel }}</div>
 
             <input class="flex items-center form-control form-input text-sm border-60"
-                   :class="{ 'w-full': filter.options.fullWidth }"
+                   :class="filter.options.customWidthTo"
                    name="to"
                    :type="filter.options.inputType"
                    :placeholder="filter.options.toPlaceholder"

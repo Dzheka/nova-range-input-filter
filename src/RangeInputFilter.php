@@ -22,7 +22,9 @@ class RangeInputFilter extends Filter
         'toPlaceholder' => null,
         'inputType' => 'number',
         'dividerLabel' => 'to',
-        'fullWidth' => true
+        'fullWidth' => true,
+        'customWidthFrom' => 'w-1/3',
+        'customWidthTo' => 'w-1/2'
     ];
 
     /**
