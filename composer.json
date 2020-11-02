@@ -1,5 +1,5 @@
 {
-    "name": "digital-creative/nova-range-input-filter",
+    "name": "digital-creative/nova-range-input-filter-tajik",
     "description": "A Laravel Nova range input filter.",
     "keywords": [
         "laravel",
@@ -10,10 +10,10 @@
     ],
     "authors": [
         {
-            "name": "Rafael Milewski"
+            "name": "Dzheka"
         },
         {
-            "name": "littlemiaor"
+            "name": "bigmiaor"
         }
     ],
     "license": "MIT",
