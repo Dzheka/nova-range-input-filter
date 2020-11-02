@@ -1,5 +1,5 @@
 {
-    "name": "tajik-digital",
+    "name": "tajik/digital",
     "description": "A Laravel Nova range input filter.",
     "keywords": [
         "laravel",
